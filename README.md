@@ -1,8 +1,8 @@
 # Multi-Modal Offer Search Agent System
 
-Multimodal AI agent system that helps users discover real-time offers on Flights, Hotels, and Tours based on their credit/debit card details. Built using Google’s Agent Development Kit (ADK) and powered by OpenAI’s GPT-4o-mini as the primary LLM model, the agent automates the end-to-end process of collecting user preferences, searching for matching offers, and presenting curated results in a clear and personalized format.
-
-This project showcases how multiple specialized agents can collaborate to perform a multi-turn, tool-augmented conversation—demonstrating practical use of LLMs in deal aggregation and search automation.
+Developed a multi-agent conversational system using Google ADK and GPT-4o-mini to fetch personalized, real-time offers based on user-selected categories (Flight, Hotel, Tour) and card details.
+The system coordinates multiple LLM agents to collect user preferences, perform live Google searches, and filter only active, valid offers.
+Integrated tools for agent orchestration, search query generation, and date-based result validation using a fully modular architecture.
 
 ---
 
